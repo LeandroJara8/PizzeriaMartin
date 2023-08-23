@@ -1,0 +1,510 @@
+
+
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+
+
+header{
+    height:70px;
+    background-color: black;
+    padding: 25px;
+    font-size: 22px;
+    font-family: 'Raleway', sans-serif;
+   
+}
+
+.logo{
+    float: left;
+    color: white;
+    text-transform: uppercase;
+}
+
+.barra{
+    float: right;
+    text-transform: uppercase;
+}
+
+.barra ul{
+    list-style: none;
+    
+}
+
+.barra ul li{ 
+    display: inline-block;
+    
+}
+
+.barra a{
+    text-decoration: none;
+    color: rgb(255, 255, 255);
+    
+}
+
+.nav-link:hover{
+    color:  rgb(252, 173, 2);
+}
+
+main{
+    height: calc(100vh - 70px);
+    width: 100%;
+    background-color: #550c0c;
+    
+    
+}
+
+.call{
+    width: 70%;
+    color: rgb(0, 0, 0);
+    border: 5px solid rgb(0, 0, 0);
+    padding: 20px;
+    background-color:rgba(252, 173, 2, 0.856);
+    text-align: center;
+    margin: auto;
+    border-radius: 20px;
+   
+    
+}
+
+h1{
+    color: rgba(10, 2, 2, 0.856);
+    text-align: center;
+    font-size: 70px;
+    font-family: 'Raleway', sans-serif;
+    text-transform: uppercase;
+    
+    
+}
+
+.call p{
+    font-size: 20px;
+    
+}
+
+.imagen{
+    height: 230px;
+    width: 230px;
+    margin-left: 100px;
+    margin-top: 10px;
+    
+}
+
+
+   .vision{
+    background-color:rgba(252, 173, 2, 0.856);
+    margin: auto;
+    width: 70%;
+    border: 5px solid rgb(0, 0, 0);
+    border-radius: 20px;
+    margin-top: 200px;
+    background-repeat: no-repeat;
+    height: 250px;
+
+   }
+
+   h2{
+    text-align: center;
+    text-transform: uppercase;
+    font-family: 'Raleway', sans-serif;
+    background-color:rgba(252, 173, 2, 0.856);
+    padding: 15px;
+    border: 5px solid rgb(0, 0, 0);
+
+   }
+   
+   section{
+    height: 700px;
+    width: 100%;
+   
+   }
+
+   .redes{
+    color: rgba(252, 173, 2, 0.856);
+    font-size: 50px;
+    margin-left: 13%;
+    text-decoration: none;
+    
+   }
+
+   footer{
+    background-color: black;
+    text-align: center;
+    padding: 20px;
+    font-size: 15px;
+    font-family: 'Raleway', sans-serif;
+    text-transform: uppercase;
+   }
+
+   .futer{
+    color: white;
+   }
+
+.opinion{
+    float: left;
+    color:rgba(252, 173, 2, 0.856);
+}
+
+.ayuda{
+    float: right;
+    color:rgba(252, 173, 2, 0.856);
+}
+
+a{
+    color:rgba(252, 173, 2, 0.856);
+}
+body{
+    height: calc(100vh - 70px);
+    width: 100%;
+    background-color: #ffffff;
+    font-family: 'Raleway', sans-serif;
+    background-color: #550c0c;
+  
+}
+
+
+.volver{
+    color: rgba(255, 254, 253, 0.856);
+    text-decoration: none;
+}
+
+
+.imput{
+
+    width: 50%;
+    color: rgb(0, 0, 0);
+    border: 5px solid rgb(0, 0, 0);
+    padding: 20px;
+    background-color:rgba(252, 173, 2, 0.856);
+    text-align: center;
+    margin: auto;
+    border-radius: 20px;
+   margin-top: 13%;
+    
+    
+}
+
+.btn{
+    margin-left: 40%;
+}
+
+
+.nion{
+    width: 50%;
+    color: rgb(0, 0, 0);
+    border: 5px solid rgb(0, 0, 0);
+    padding: 20px;
+    background-color:rgba(252, 173, 2, 0.856);
+    text-align: center;
+    margin: auto;
+    border-radius: 20px;
+   margin-top: 15%;
+}
+
+
+.pizzas{
+    text-align: center;
+    margin-top: -130px;
+}
+
+.pizzas p{
+
+    display: inline-block;
+    margin-left: 3%;
+    font-size: 20px;
+    
+}
+
+.pedido{
+    color:rgb(253, 253, 252);
+    font-family: 'Raleway', sans-serif;
+    font-size: 20px;
+    margin-top: -25px;
+    margin-left: 20%;
+}
+
+
+.imputt{
+
+    width: 60%;
+    color: rgb(0, 0, 0);
+    border: 5px solid rgb(0, 0, 0);
+    padding: 150px;
+    background-color:rgba(252, 173, 2, 0.856);
+    text-align: center;
+    margin: auto;
+    border-radius: 20px;
+   margin-top: 10%;
+
+}
+
+.pasos{
+    font-size: 30px;
+    
+}
+
+.nav-link{
+    font-size: 25px;
+}
+
+.navbar{
+    padding: 15px;
+}
+
+.btn{
+    margin-top: -80px;
+    margin-left: 30%;
+    background-color: white;
+}
+
+   @media only screen and (max-width: 320px){
+    h1{
+        font-size: 20px;
+    }
+   }
+
+   @media only screen and (max-width: 320px){
+    .imagen{
+        height: 130px;
+        width: 130px;
+        margin-left: 47px;
+        margin-top: -5px;
+    }
+   }
+
+  @media only screen and (max-width: 320px){
+    .vision{
+        margin-top: 100px;
+    }
+  }
+
+  @media only screen and (max-width: 320px){
+    .pizzas p{
+        font-size: 14px;
+    }
+  }
+
+
+  @media only screen and (max-width: 320px){
+    .opinion{
+        margin-left: 70px;
+        
+    }
+  }
+
+  @media only screen and (max-width: 320px){
+    .ayuda{
+        margin-left: 10px;
+    }
+  }
+
+ @media only screen and (max-width: 320px){
+    .redes{
+        margin-left: 15px;
+    }
+ }
+
+ @media only screen and (max-width: 320px){
+    .imput{
+        width: 250px;
+    }
+ }
+
+ @media only screen and (max-width: 320px){
+    .formula{
+        margin-left: -5px;
+        width: 200px;
+    }
+ }
+
+ @media only screen and (max-width: 320px){
+    .btn{
+        margin-left: 43px;
+    }
+ }
+
+ @media only screen and (max-width: 320px){
+    .pasos{
+       font-size: 20px;
+
+    }
+ }
+
+ @media only screen and (max-width: 320px){
+    .nion{
+        width: 250px;
+    }
+
+ }
+
+ @media only screen and (max-width: 320px){
+    .opipi{
+        margin-left: -5px;
+        width: 200px;
+    }
+ }
+
+@media only screen and (min-width: 330px) and (max-width: 480px) {
+    h1{
+        font-size: 20px;
+    }
+}
+
+@media only screen and (min-width: 330px) and (max-width: 480px) {
+    .imagen{
+        height: 130px;
+        width: 130px;
+        margin-left: 140px;
+        margin-top: -5px;
+    }
+}
+
+@media only screen and (min-width: 330px) and (max-width: 480px) {
+    .pizzas p{
+        font-size: 15px;
+        
+        
+    }
+}
+
+@media only screen and (min-width: 330px) and (max-width: 480px) {
+    .vision{
+        
+        margin-top: 100px;
+        width: 400px;
+        
+    }
+}
+
+
+@media only screen and (min-width: 330px) and (max-width: 480px) {
+    .redes{
+        
+       margin-left: 10px;
+        
+    }
+}
+
+
+@media only screen and (min-width: 330px) and (max-width: 480px) {
+    .imput{
+        width: 300px;
+    }
+}
+
+@media only screen and (min-width: 330px) and (max-width: 480px) {
+    .pasos{
+        font-size: 20px;
+       
+    }
+}
+ 
+@media only screen and (min-width: 330px) and (max-width: 480px) {
+    .pasos p{
+        height: 50px;
+    }
+}
+ 
+@media only screen and (min-width: 330px) and (max-width: 480px) {
+    .nion{
+      width: 300px;
+    }
+}
+
+
+@media only screen and (min-width: 490px) and (max-width: 900px) {
+    .imagen{
+        height: 130px;
+        width: 130px;
+        margin-left: 240px;
+        margin-top: -5px;
+    }
+}
+
+@media only screen and (min-width: 490px) and (max-width: 900px) {
+    .pizzas p{
+        font-size: 15px;
+    }
+}
+
+@media only screen and (min-width: 490px) and (max-width: 900px) {
+    .vision{
+        margin-top: 60px;
+    }
+}
+
+@media only screen and (min-width: 910px) and (max-width: 1200px) {
+    .imagen{
+        height: 130px;
+        width: 130px;
+        margin-left: 340px;
+        margin-top: -5px;
+    }
+}
+
+@media only screen and (min-width: 910px) and (max-width: 1200px) {
+    .vision{
+        margin-top: 60px;
+    }
+}
+
+
+.col{
+    background-color:rgb(252, 173, 2);
+    border: 2px solid black;
+    height: 500px;
+    margin-top: 160px;
+    border-radius: 20px;
+}
+
+.pizz{
+    font-size: 20px;
+    
+
+}
+
+.unite{
+    color: red;
+}
+
+h6{
+    text-align: center;
+    color:rgb(252, 173, 2);
+  
+}
+
+.trabaja{
+    display: grid;
+    grid-template-columns: repeat(2, 4fr);
+    grid-template-rows: repeat(1, 400px);
+    margin-top: 200px;
+   background-color: rgb(252, 173, 2);
+   border: 2px solid black;
+   border-radius: 20px;
+   
+
+}
+
+.item1{
+    border: solid black;
+    background-image: url(imagenes/istockphoto-859663820-612x612.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
+    
+  
+  
+}
+
+.item2{
+    border: solid black;
+    
+}
+
+@media only screen and (min-width: 320px) and (max-width: 790px) {
+    .trabaja{
+
+    grid-template-columns: auto;
+    }
+}
